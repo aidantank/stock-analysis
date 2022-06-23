@@ -59,9 +59,10 @@ However, both times are under a second. So with the data for a year only includi
 
 ### Advantages and Disadvantages of Refactoring Code
 
-The main advantage of refactoring is efficency and the main disadvantage is time. 
+The main advantage of refactoring is efficiency. The efficiency can occur in the code itself or the readability of the coder. Refactoring code can help make the program run faster by changing up your algorithm. This is especially important when using larger sets of data. For example, if I can refactor my code to loop over the data set once as opposed to 10 times the code with execute much faster. Also, we can refactor code for the person/people who read the code. By taking out unnecessary code or adding spaces/comment, we can make organizing or reading code easier. This can avoid headaches attempting to figure out what the code is doing in the future.
+
+Refactoring code can have it's drawbacks. The main disadvantage of refactoring code is time. The code already works, so why bother taking all the time to change it! There could be other projects with code that doesn't even run and thus it would be better to spend time on those. Also, we implementing any new code there is a chance that new bugs will occur. These new bugs could limit the functionality of the existing code you are trying to refactor. 
 
 ### How Pros and Cons Apply to Original Script
 
-Approached the code from a different way, took less time to run. Took a lot more of my time to refactor the code and there only was a 0.8 second difference in runtime.
-
+So how do the above pros and cons impact the vba script that I just refactored? For efficiency of the code, the analysis above shows in *Original 2017 and 2018* vs *Refactored 2017 and 2018* that the refactored code ran quicker. In fact it took about 9 times longer for the original code to run vs the refactored. On the down side, it took another 2 hours to complete. When I attempted to change all the code from the vba script I ran into multiple variables being named incorrectly causing several annoying bugs in my code. For a smaller data set of just 2017 and 2018 for 12 renewal energy stocks the original code worked just fine, however if we want to increase the number of stocks or the number of years, having the refactored code will save us plenty of time down the road.
